@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockPattern">
+        <attr name="password_min_length" format="integer" />
+        <attr name="password_max_length" format="integer" />
+        <attr name="inner_color" format="reference"/>
+        <attr name="outer_color" format="reference"/>
+        <attr name="selected_inner_color" format="reference"/>
+        <attr name="selected_outer_color" format="reference"/>
+        <attr name="error_inner_color" format="reference"/>
+        <attr name="error_outer_color" format="reference"/>
+        <attr name="line_color" format="reference"/>
+        <attr name="error_line_color" format="reference"/>
+        <attr name="arrow_color" format="reference"/>
+        <attr name="error_arrow_color" format="reference"/>
+        <attr name="draw_arrow" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLockPattern</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_str">请输入密码</string>
+    <string name="footer_str">是不是又忘记密码了？</string>
+
+</resources>

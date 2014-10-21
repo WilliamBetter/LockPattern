@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lockpattern="http://schemas.android.com/apk/res/com.iwilliam.lockpattern"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE2233AA"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/header_str"
+        android:textColor="@android:color/white"
+        android:textSize="23sp" />
+
+    <com.iwilliam.view.LockPattern
+        android:id="@+id/lockPattern9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="200"
+        lockpattern:arrow_color="@color/arrow_color"
+        lockpattern:draw_arrow="true"
+        lockpattern:error_arrow_color="@color/error_arrow_color"
+        lockpattern:error_inner_color="@color/error_inner_color"
+        lockpattern:error_line_color="@color/error_line_color"
+        lockpattern:error_outer_color="@color/error_outer_color"
+        lockpattern:inner_color="@color/inner_color"
+        lockpattern:line_color="@color/line_color"
+        lockpattern:outer_color="@color/outer_color"
+        lockpattern:password_min_length="4"
+        lockpattern:selected_inner_color="@color/selected_inner_color"
+        lockpattern:selected_outer_color="@color/selected_outer_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/footer_str"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
